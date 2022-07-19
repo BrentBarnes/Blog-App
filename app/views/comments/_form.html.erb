@@ -2,15 +2,15 @@
 <%= form_with model: [ @article, @article.comments.build ] do |form| %>
   <p>
     <%= form.label :commenter %><br>
-    <%= form.text_field :commenter %>
+    <%= form.text_field :commenter, class: "bg-lightPink rounded-md p-2" %>
   </p>
 
   <p>
     <%= form.label :body %><br>
-    <%= form.text_area :body %>
+    <%= form.text_area :body, class: "bg-lightPink rounded-md p-2" %>
   </p>
 
-  <p>
-    <%= form.submit %>
+  <p class="flex justify-center bg-brown mt-2 w-60 py-2 px-4 text-white rounded-2xl hover:cursor-pointer hover:bg-lightPink shadow-md">
+    <%= form.submit "Create Comment", class: "hover:cursor-pointer" %>
   </p>
 <% end %>

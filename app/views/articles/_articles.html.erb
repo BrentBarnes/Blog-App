@@ -1,0 +1,10 @@
+
+<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 lg:grid-cols-4">
+<% @articles.each do |article| %>
+  <div class="bg-white rounded-3xl p-4 shadow-md h-32 sm:h-48">
+    <%= link_to article.title, article, class: "text-xl hover:text-lightGreen" %>
+    <div class="h-0.5 bg-superLightGreen rounded-full my-2"></div>
+    <%= article.body %>
+  </div>
+  <% end %>
+</div>

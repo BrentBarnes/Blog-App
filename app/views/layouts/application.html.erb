@@ -10,8 +10,10 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <%= render "/layouts/header" %>
-    <%= yield %>
+  <body class="bg-superLightGreen">
+    <%= render "/layouts/nav" %>
+    <div class="p-16">
+      <%= yield %>
+    </div>
   </body>
 </html>

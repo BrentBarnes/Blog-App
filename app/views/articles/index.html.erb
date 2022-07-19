@@ -1,11 +1,6 @@
-<h1>Articles</h1>
+<div class="grid grid-cols-2 items-center">
+  <p class="text-6xl mb-4">Articles</p>
+  <%= link_to "New", { action: "new" }, class: "flex justify-center justify-self-end bg-brown hover:lightPink text-white text-xl  w-20 py-3 px-6 rounded-2xl shadow-md" %>
+</div>
 
-<ul>
-<% @articles.each do |article| %>
-  <li>
-    <%= link_to article.title, article %>
-  </li>
-  <% end %>
-</ul>
-
-<%= link_to "New Article", new_article_path %>
+<%= render "articles" %>

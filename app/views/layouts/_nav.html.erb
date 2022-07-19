@@ -1,0 +1,19 @@
+
+<nav class="relative px-40 py-3 bg-grayGreen shadow-md">
+  <div class="flex items-center justify-between">
+    <%=  link_to root_path do %>
+      <div class="pt-2 flex items-center">
+        <%= image_tag('blog_images/quill_logo', alt: 'icon', :size => "75x75") %>
+        <p class="text-3xl">BLOGGISM</p>
+      </div>
+    <% end %>
+
+    <div class="hidden sm:flex space-x-16">
+      <%= link_to "Articles", articles_path, class: "text-xl hover:text-lightGreen" %>
+      <%= link_to "About Me", "/pages/about", class: "text-xl hover:text-lightGreen" %>
+      <%= link_to "Pricing", "/pages/pricing", class: "text-xl hover:text-lightGreen" %>
+    </div>
+  </div>
+</nav>
+
+
