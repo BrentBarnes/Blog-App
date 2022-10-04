@@ -1,24 +1,30 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Blog App
 
-Things you may want to cover:
+This project was created to put what I learned about the model, view, controller pattern to use.
 
-* Ruby version
+I had a lot of help for this from [The Ruby on Rails Guides: Getting Started](https://guides.rubyonrails.org/getting_started.html). This rails guide is a big walkthrough of how to create a blog app like this.
 
-* System dependencies
+This was a super useful guide to have for a first project. It held your hand and let you go on your own just enough.
 
-* Configuration
+### Functionality
 
-* Database creation
+* Has two static pages
+* Can create new blog articles with a title and content
+* Edit and delete articles
+* Create or delete comments on articles
+* Makes use of strong parameters
+* Built in model validations
 
-* Database initialization
+### Screenshots
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<p float = 'left' >
+  <figure>
+    <figcaption>Blog Home Page</figcaption>
+    <img src="images/home.png" alt="Blog Home Page" width="600" height="300">
+  </figure>
+  <figure>
+    <figcaption>Article Show View</figcaption>
+    <img src="images/comments.png" alt="Articel Show View" width="600" height="300">
+  </figure>
+</p>
