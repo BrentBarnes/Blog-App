@@ -25,6 +25,6 @@ This was a super useful guide to have for a first project. It held your hand and
   </figure>
   <figure>
     <figcaption>Article Show View</figcaption>
-    <img src="screenshots/comments.png" alt="Articel Show View" width="600" height="300">
+    <img src="screenshots/comments.png" alt="Articel Show View" width="300" height="400">
   </figure>
 </p>
