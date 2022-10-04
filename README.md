@@ -21,10 +21,10 @@ This was a super useful guide to have for a first project. It held your hand and
 <p float = 'left' >
   <figure>
     <figcaption>Blog Home Page</figcaption>
-    <img src="home.png" alt="Blog Home Page" width="600" height="300">
+    <img src="screenshots/home.png" alt="Blog Home Page" width="600" height="300">
   </figure>
   <figure>
     <figcaption>Article Show View</figcaption>
-    <img src="comments.png" alt="Articel Show View" width="600" height="300">
+    <img src="screenshots/comments.png" alt="Articel Show View" width="600" height="300">
   </figure>
 </p>
